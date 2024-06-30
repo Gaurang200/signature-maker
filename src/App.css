@@ -36,3 +36,157 @@
     transform: rotate(360deg);
   }
 }
+/* 
+
+.board{
+  border: 3px solid black;
+}
+.input_box{
+  width: 100%;
+  padding: .375rem .75rem;
+
+}
+.select_box{
+  width: 100%;
+  padding: .375rem .75rem;
+
+}
+.color_box{
+  display: flex;
+  width: auto;
+}
+
+.text_color_box{
+  width: 30%;
+}
+
+.btn_width{
+  width: 100%;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  margin-left: 200px;
+  margin-right: 200px;
+
+} */
+
+.btn_width{
+  width: 100%;
+}
+.input_box{
+  width: 100%;
+  padding: .375rem .75rem;
+
+}
+.select_box{
+  width: 100%;
+  padding: .375rem .75rem;
+
+}
+
+/* Add this CSS to your stylesheet */
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.control {
+  flex: 1;
+  min-width: 150px;
+}
+
+.canvas {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #000;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .canvas {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) and (min-width:376px) {
+  .control {
+    min-width: 100px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .buttons button {
+    width: 50%;
+
+  }
+
+
+
+  .controls {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .control {
+    width: 50% !important;
+
+  }
+}
+
+@media (max-width: 376px) {
+  /* .control {
+    min-width: 100px;
+  } */
+
+  .buttons {
+    flex-direction: column;
+    width: 100% !important;
+    align-items: center;
+  }
+  .buttons button {
+    width: 100% !important;
+
+  }
+
+
+
+  .controls {
+    flex-direction: column;
+    width: 100% !important;
+    align-items: center;
+  }
+  .control {
+    width: 100% !important;
+
+  }
+}
